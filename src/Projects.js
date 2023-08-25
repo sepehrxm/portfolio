@@ -55,7 +55,7 @@ const Projects = () => {
             </div>
         
         </div>
-        <div>
+        <div id='projectDown'>
           <img id='down' src={down} alt="down"/>
         </div>
     </div>

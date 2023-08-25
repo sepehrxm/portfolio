@@ -22,7 +22,7 @@ const Profile = () => {
       <div id='btns'>
 
         <a href={cv} download='cv'>Download CV</a>
-      <a target='_blank' href='https://https://github.com/sepehrxm/portfolio/'>Github for this website</a>
+      <a target='_blank' href='https://github.com/sepehrxm/portfolio/'>Github for this website</a>
 
       </div>
     </div>

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6ef8d3be.css",
+    "main.js": "/portfolio/static/js/main.29223bd0.js",
+    "static/media/Movie.png": "/portfolio/static/media/Movie.3d622e0d98e52334e6f1.png",
+    "static/media/Weather.png": "/portfolio/static/media/Weather.058b469a7aabb2fc2cd7.png",
+    "static/media/Movie2.png": "/portfolio/static/media/Movie2.3e24884d5be2849bc360.png",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.3b7ebdcda3d700a3c446.pdf",
+    "static/media/check.gif": "/portfolio/static/media/check.afc245ad1f5ef14e0c1b.gif",
+    "static/media/Weather2.png": "/portfolio/static/media/Weather2.f30963d262a97bbc82bd.png",
+    "static/media/down.gif": "/portfolio/static/media/down.8d5668b5685a1db5b71b.gif",
+    "static/media/Crypto.png": "/portfolio/static/media/Crypto.9ae1594a28c5eaea0391.png",
+    "static/media/Crypto2.png": "/portfolio/static/media/Crypto2.81a86b099fa132d3214d.png",
+    "static/media/me.jpg": "/portfolio/static/media/me.ab7b2be29d86b31b366f.jpg",
+    "static/media/system-outline-59-email.png": "/portfolio/static/media/system-outline-59-email.271318e38198e4d89f34.png",
+    "static/media/system-outline-58-call-phone.png": "/portfolio/static/media/system-outline-58-call-phone.47ede0944af9c36c09a2.png",
+    "static/media/system-outline-47-chat.png": "/portfolio/static/media/system-outline-47-chat.538825c9e642e93c8952.png",
+    "index.html": "/portfolio/index.html",
+    "main.6ef8d3be.css.map": "/portfolio/static/css/main.6ef8d3be.css.map",
+    "main.29223bd0.js.map": "/portfolio/static/js/main.29223bd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ef8d3be.css",
+    "static/js/main.29223bd0.js"
+  ]
+}

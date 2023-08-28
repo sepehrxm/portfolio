@@ -178,12 +178,13 @@ nav{
 }
 
 #screen{
-  width: 150px;
+  width: 10vw;
+  height: 190px;
   border-radius: 20px;
 }
 #screenw{
-  width: 250px;
-  height: 210px;
+  width: 17vw;
+  height: 190px;
   margin-right: 5px;
   border-radius: 20px;
 }

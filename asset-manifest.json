@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6ef8d3be.css",
+    "main.css": "/portfolio/static/css/main.dff84c56.css",
     "main.js": "/portfolio/static/js/main.560bbd77.js",
     "static/media/cv.pdf": "/portfolio/static/media/cv.aaa059f1f8a395d29990.pdf",
     "static/media/Movie.png": "/portfolio/static/media/Movie.3d622e0d98e52334e6f1.png",
@@ -16,11 +16,11 @@
     "static/media/system-outline-58-call-phone.png": "/portfolio/static/media/system-outline-58-call-phone.47ede0944af9c36c09a2.png",
     "static/media/system-outline-47-chat.png": "/portfolio/static/media/system-outline-47-chat.538825c9e642e93c8952.png",
     "index.html": "/portfolio/index.html",
-    "main.6ef8d3be.css.map": "/portfolio/static/css/main.6ef8d3be.css.map",
+    "main.dff84c56.css.map": "/portfolio/static/css/main.dff84c56.css.map",
     "main.560bbd77.js.map": "/portfolio/static/js/main.560bbd77.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ef8d3be.css",
+    "static/css/main.dff84c56.css",
     "static/js/main.560bbd77.js"
   ]
 }

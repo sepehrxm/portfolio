@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './Navbar.js'
-import Profile from './Profile';
-import Projects from './Projects';
-import Skill from './Skill';
-import Contact from './Contact';
+import Navbar from './components/Navbar.js'
+import Profile from './components/Profile.js';
+import Projects from './components/Projects.js';
+import Skill from './components/Skill.js';
+import Contact from './components/Contact.js';
 import { useRef } from 'react';
 
 
@@ -24,19 +24,22 @@ function App() {
     <div className="App">
      <Navbar scroll={scroll} skills={skills} home={home} contact={contact} projects={projects}/>
      <div ref={home}>
-     <Profile/>
+     <Profile scroll={scroll} skills={skills}/>
      </div>
 
      <div ref={skills}>
-     <Skill/>
+     <Skill scroll={scroll} projects={projects}/>
      </div>
 
      <div ref={projects}>
-     <Projects/>
+     <Projects scroll={scroll} contact={contact}/>
      </div>
      <div ref={contact}>
-      <Contact/>
+      <Contact scroll={scroll} home={home}/>
      </div>
+     <footer>
+      <p>Copyright © 2023</p>
+     </footer>
     </div>
   );
 }

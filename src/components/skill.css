@@ -1,0 +1,96 @@
+#skillPage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(112, 99, 53);
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    background: url('../assets/back1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(110, 0, 19);
+    background-blend-mode: multiply;
+}
+
+#skillContainer{
+    padding: 0 40px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    font-size: 1.5rem;
+    border-radius: 55px;
+    color: whitesmoke;
+}
+
+#skillCard{
+    background-color: rgba(255, 0, 0, 0.205);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(94, 72, 0);
+    padding: 5px;
+}
+
+#skillCard > p{
+    color: rgb(61, 158, 5);
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+#skillCard > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+#skillCard:hover{
+    background-color: black;
+    color: rgb(142, 146, 129);
+    border: 1px solid red;
+    cursor: pointer;
+    color: rgb(204, 152, 7);
+}
+
+#sHead{
+    color: #b98c0e;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+  }
+
+@media only screen and (max-width: 767px){
+    #skillPage{
+        min-height: 100%;
+        width: 100vw;
+  } 
+     #skillContainer{
+        padding: 0 40px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        font-size: 1.5rem;
+        border-radius: 55px;
+        color: whitesmoke;
+}
+    #skillCard > p{
+        font-size: 1rem;
+    }
+    
+    #skillCard > div{
+        font-size: 1.2rem;
+    }
+  
+}

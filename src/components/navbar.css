@@ -1,0 +1,106 @@
+nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    height: 12vh;
+    padding: 0 4rem;
+    color: white;
+    backdrop-filter: blur(10px);
+    background-color: rgba(246, 246, 247, 0.13);
+    z-index: 1000;
+  }
+  .navMobile{
+    display: none;
+  }
+
+  #rightNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  #nav-button{
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+  #nav-button:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    color: #b98c0e;
+    cursor: pointer;
+  }
+
+  #nav-button2:hover{
+    color: #b90e0e;
+    cursor: pointer;
+  }
+
+  #nav-button:focus, #nav-button:active{
+    color: #e0a20f;
+  }
+
+  #nav-button2{
+    background-color: green;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #nav-button2:focus, #nav-button2:active{
+    color: #fafafa;
+    background-color: #721003;
+  }
+
+  #leftNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navLogo{
+    max-height: 60px;
+  }
+
+  #navName{
+    font-size: 1.5rem;
+    padding-left: 4px;
+    color: #e6ae16;
+    letter-spacing: 1px;
+  }
+
+  #navIcons{
+    width: 20px;
+  }
+
+  #rightNav > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  } 
+
+  @media only screen and (max-width: 767px){
+    nav{
+      padding: 0 20px;
+    }
+    #rightNav{
+      display: none;
+    }
+    #navLogo{
+      max-height: 40px;
+    }
+    #navName{
+      font-size: 1.2rem;
+    }
+  
+  }

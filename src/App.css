@@ -1,29 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body{
-  font-family: 'Bricolage Grotesque', sans-serif;
-  /* overflow:auto */
+
+html{
+  font-size: 16px;
 }
 
-nav{
-  position: fixed;
-  top: 0;
+body{
+  min-height: 100vh;
   display: flex;
-  width: 100vw;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.4rem;
-  height: 12vh;
-  padding: 0 4rem;
-  color: white;
+  overflow-y: auto;
+  font-family: "Raleway", serif;
 }
-.navMobile{
-  display: none;
+
+#root{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+footer{
+  width: 100%;
+  display: grid;
+  place-content: center;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sc{
@@ -32,141 +49,19 @@ nav{
   height: 20px;
   width: 20px;
 }
-#rightNav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.3rem;
-  gap: 3rem;
-}
-#rightNav > p:hover{
-  text-decoration: underline;
-  text-underline-offset: 0.5rem;
-  color: #b98c0e;
-  cursor: pointer;
-}
-#rightNav > p:focus, #rightNav > p:active{
-  color: #886609;
-}
-#me{
-  width: 250px;
-  border-radius: 200px;
-}
-#page{
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #1d1d1d;
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
-#page2, #page4{
-  height: 100vh;
-  width: 100%;
-  background-color: #363434;
-}
-#page3{
-  height: 100vh;
-  width: 100%;
-  background-color: #1d1d1d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
-#profile{
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
-  align-items: center;
-  text-align: center;
-  gap: 0.5rem;
-}
-#pro{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-#btns{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 15px;
-}
-#btns > a{
-  font-family: 'Bricolage Grotesque', sans-serif;
-  font-size: 1.2rem;
-  font-weight: bold;
-  width: 250px;
-  height: 35px;
-  background-color: rgb(142, 146, 129);
-  border: 0;
-  margin-bottom: 8px;
-  border-radius: 12px;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  color: #030303;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-#btns > a:hover{
-  background-color: black;
-  color: rgb(142, 146, 129);
-}
-#btns > button:active{
-  background-color: rgb(68, 49, 12);
-}
-#myName{
-  color: aliceblue;
-  font-size: 2rem;
-}
-#front{
-  font-size: 1.5rem;
-  color: rgb(134, 100, 67);
-}
+
 #down{
   width: 40px;
   margin-top: 60px;
 }
 
-#skills{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  /* text-align: center; */
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
+
 #sHead{
   color: #b98c0e;
   font-size: 2.5rem;
+  padding-bottom: 10px;
 }
-#ex{
-  background-color: #0c0b078e;
-  height: 300px;
-  width: 700px;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  display: flex;
-  border-radius: 55px;
-  border: 4px solid rgb(0, 0, 0);
-  color: whitesmoke;
-  gap: 4rem;
-}
+
 #ex > div{
   display: flex;
   flex-direction: column;
@@ -177,130 +72,19 @@ nav{
   width: 25px;
 }
 
-#screen{
-  width: 10vw;
-  height: 190px;
-  border-radius: 20px;
-}
-#screenw{
-  width: 17vw;
-  height: 190px;
-  margin-right: 5px;
-  border-radius: 20px;
-}
-
-#projects{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  gap: 1rem;
-}
-#project{
-  display: flex;
-  background-color: rgba(161, 160, 147, 0.226);
-  flex-direction: column;
-  padding: 15px 20px;
-  border-radius: 20px;
-  border: 2px solid rgb(255, 255, 255);
-}
 
 
-#apps{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  color: rgb(206, 163, 23);
-  font-size: 1.5rem;
-}
-#link{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-#link > a{
-  background-color: rgb(23, 23, 24);
-  width: 45%;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 25px;
-  padding: 8px 0;
-  color: white;
-}
-#link > a:hover{
-  background-color: rgb(49, 38, 21);
-}
-#link > a:active{
-  background-color: rgb(0, 0, 0);
-}
 
-#contact{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  /* text-align: center; */
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
-.cimg{
-  transform: rotate(180deg);
-}
 
-#cinfo{
-  color: #b98c0e;
-  font-size: 2.5rem;
-}
-#cback{
-  background-color: #fffdfd33;
-  padding: 40px 60px;
-  font-size: 1.5rem;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */
-  gap: 1rem;
-}
 
-#cIcon{
-  width: 25px;
-}
-#cback > p{
-  display: flex;
-  gap: 0.5rem;
-}
-
-@media only screen and (max-width: 767px){
-  nav{
-    display: none;
-  }
-
+/* @media only screen and (max-width: 767px){
   #page{
     padding-top: 100px;
   }
   #page, #page2, #page3, #page4{
     min-height: 700px;
   }
-  #btns > a{
-    font-size: 1rem;
-    padding: 10px;
-    width: 200px;
-  }
-  #myName{
-    font-size: 1.5rem;
-  }
-  #front{
-    font-size: 1.2rem;
-  }
-  #me{
-    width: 200px;
-  }
+  
   #skills{
     padding-top: 100px;
   }
@@ -314,7 +98,7 @@ nav{
     font-size: 1.2rem;
     gap: 1rem;
     width: 300px;
-    /* height: 300px; */
+    height: 300px;
   }
   #ex > div{
     justify-content: center;
@@ -362,4 +146,4 @@ nav{
     width: 25px;
     height: 30px;
   }
-}
+} */

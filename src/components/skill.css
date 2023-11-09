@@ -71,7 +71,7 @@
 @media only screen and (max-width: 767px){
     #skillPage{
         min-height: 100%;
-        width: 100vw;
+        width: 100%;
   } 
      #skillContainer{
         padding: 0 40px;

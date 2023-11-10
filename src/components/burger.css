@@ -41,9 +41,9 @@
     background: #252222;
     color: #ac1a1a;
     padding: 10px;
-    border-radius: 4px;
     height: 300px;
-    width: 250px;
+    width: 120px;
+    border-bottom-left-radius: 50px;
   }
   
   .menu.open {
@@ -63,20 +63,22 @@
     color: #ac1a1a;
     border: none; 
     background-color: transparent;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   #nav-list > div{
-    border-bottom: 1px solid white;
+    border-bottom: 4px solid rgb(82, 82, 82);
     width: 100%;
     text-align: center;
   }
 
   #nav-list > div:hover{
     background-color: #303030;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
   }
   #nav-list > div > button:focus, #nav-list > div > button:active{
-    color: white
+    color: #b98c0e;
   }
 
 @media only screen and (max-width: 767px){

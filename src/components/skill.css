@@ -30,16 +30,17 @@
 }
 
 #skillCard{
-    background-color: rgba(255, 0, 0, 0.205);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 10px;
-    border: 1px solid rgb(94, 72, 0);
+    background-color: black;
+    border: 1px solid red;
     padding: 5px;
 }
+
 
 #skillCard > p{
     color: rgb(61, 158, 5);
@@ -55,18 +56,19 @@
 }
 
 #skillCard:hover{
-    background-color: black;
-    color: rgb(142, 146, 129);
-    border: 1px solid red;
-    cursor: pointer;
+    cursor: auto;
     color: rgb(204, 152, 7);
+    transform: scale(1.1);
 }
 
 #sHead{
     color: #b98c0e;
     font-size: 2.5rem;
     padding-bottom: 10px;
-  }
+}
+
+
+
 
 @media only screen and (max-width: 767px){
     #skillPage{
@@ -91,6 +93,11 @@
     
     #skillCard > div{
         font-size: 1.2rem;
+    }
+    #skillCard:hover{
+        transform: scale(1);
+        color: whitesmoke;
+        cursor: auto;
     }
   
 }

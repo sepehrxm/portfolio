@@ -18,7 +18,7 @@ const Skill = (props) => {
           </div>
 
           <div id='skillCard'>
-            <div id='frontCard'><img id='check' src={check} alt="check" /> CSS</div>
+            <div id='frontCard'><img id='check' src={check} alt="check" /> CSS </div>
           </div>
 
           <div id='skillCard'>
@@ -26,23 +26,23 @@ const Skill = (props) => {
           </div>
 
           <div id='skillCard'>
-            <div id='frontCard'><img id='check' src={check} alt="check" /> React JS</div>
+            <div id='frontCard'><img id='check' src={check} alt="check" /> React</div>
           </div>
 
           <div id='skillCard'>
-            <div id='frontCard'><img id='check' src={check} alt="check" /> Basic Bootstrap</div>
+            <div id='frontCard'><img id='check' src={check} alt="check" /> Next</div>
           </div>
 
           <div id='skillCard'>
-            <div id='frontCard'><img id='check' src={check} alt="check" /> Git & Github</div>
-          </div>      
+            <div id='frontCard'><img id='check' src={check} alt="check" /> Tailwind</div>
+          </div>
 
           <div id='skillCard'>
-            <div id='frontCard'><img id='check' src={check} alt="check" /> Node Js </div><p>(Fundamentals)</p>
-          </div>    
+            <div id='frontCard'><img id='check' src={check} alt="check" /> Git/Github</div>
+          </div>       
 
           <div id='skillCard'>
-            <div id='frontCard'><img id='check' src={check} alt="check" /> Express Js </div><p>(Fundamentals)</p>
+            <div id='frontCard'><img id='check' src={check} alt="check" /> Node/Express </div><p>(Fundamentals)</p>
           </div>      
         </div>
         
